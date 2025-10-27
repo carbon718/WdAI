@@ -7,26 +7,17 @@
     width: max-content;
 }
 
-.row-top {
-    grid-column: 1 / -1;
-    grid-row: 1;
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    align-items: center;
-}
-
 .square {
     width: 100px;
     height: 100px;
     box-sizing: border-box;
 }
 
-.s1 { background: #e63946; }
-.s2 { background: #2a9d8f; }
+.s1 { background: red; }
+.s2 { background: green; }
 
-.s3 { grid-column: 1; grid-row: 2; background: #264653; }
-.s4 { grid-column: 2; grid-row: 2; background: #f4a261; }
+.s3 { grid-column: 1; grid-row: 2; background: brown; }
+.s4 { grid-column: 2; grid-row: 2; background: orange; }
 
 .image-s5 {
     grid-column: 3;
