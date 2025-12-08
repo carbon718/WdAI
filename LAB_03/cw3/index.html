@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produkty</title>
+  <style>
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; }
+    img { width: 60px; }
+    #controls { margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+
+<div id="controls">
+  <input type="text" id="filterInput" placeholder="Filtruj..." />
+  <select id="sortSelect">
+    <option value="original">Oryginalna kolejność</option>
+    <option value="asc">Rosnąco</option>
+    <option value="desc">Malejąco</option>
+  </select>
+</div>
+
+<table>
+  <thead>
+  <tr>
+    <th>Zdjęcie</th>
+    <th>Tytuł</th>
+    <th>Opis</th>
+  </tr>
+  </thead>
+  <tbody id="tableBody"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
